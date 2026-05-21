@@ -7,6 +7,10 @@
 
 import Foundation
 
+#if canImport(UIKit)
+import UIKit
+#endif
+
 extension UIBackgroundFetchResult: CustomDebugStringConvertible {
     public var debugDescription: String {
         switch self {
