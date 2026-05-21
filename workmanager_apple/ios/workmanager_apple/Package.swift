@@ -19,7 +19,7 @@ let package = Package(
             name: "workmanager_apple",
             path: "Sources/workmanager_apple",
             resources: [
-                .process("../Resources")
+                .process("Resources")
             ]
         )
     ]

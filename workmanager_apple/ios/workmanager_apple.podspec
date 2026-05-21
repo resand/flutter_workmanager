@@ -18,6 +18,6 @@ Flutter Android Workmanager
   s.ios.deployment_target = '14.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
-  s.resource_bundles = { 'flutter_workmanager_privacy' => ['workmanager_apple/Resources/PrivacyInfo.xcprivacy'] }
+  s.resource_bundles = { 'flutter_workmanager_privacy' => ['workmanager_apple/Sources/workmanager_apple/Resources/PrivacyInfo.xcprivacy'] }
 end
 
